@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+  </head>
+<body>
+  <div class="sidenav">
+    <a href="#introheader">Introduction</a>
+  <a href="#What_you_should_already_know">What you should already know</a>
+  <a href="#JavaScript_and_Java">JavaScript and Java</a>
+  <a href="#Hello_world">Hello world</a>
+  <a href="#Variables">Variables</a>
+  <a href="#Declaring_Variables">Declaring Variables</a>
+</div>
+  <!-- social media -->
+  
+  
+<main id="main-doc">
+  <!-- main section -->
+    <div>
+  <section class="main-section" id="introduction">
+    <header id="introheader" class="header"><strong>Introduction</strong></header>
+    <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p> 
+
+<p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+<p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+<p>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</p>
+    <code></code>
+  </section>
+      </div>
+  
+  <!-- input for more info -->
+  <div>
+    <a href="https://www.w3schools.com/Js/js_intro.asp" id="moreinfo" target="_blank">More about this topic</a>
+  </div>
+  
+  <!-- Primary information -->
+    <div>
+   <section class="main-section" id="What_you_should_already_know">
+     <header class="header"><strong>What you should already know</strong></header>
+     <p>This guide assumes you have the following basic background:</p>
+       <p>A general understanding of the internet and the world wide web (WWW).</p>
+       <p>Good working knowledge of HyperText Markup language (HTML).</p>
+       <p>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</p>
+     <code></code>
+  </section>
+      </div>
+  
+    <div>
+   <section class="main-section" id="JavaScript_and_Java">
+     <header class="header"><strong>JavaScript and Java</strong></header>
+     <p>JavaScript is a programming language that adds interactivity to your website (for example: games, responses when buttons are pressed or data entered in forms, dynamic styling, animation). This article helps you get started with this exciting language and gives you an idea of what is possible.</p>
+     <p>JavaScript ("JS" for short) is a full-fledged dynamic programming language that, when applied to an HTML document, can provide dynamic interactivity on websites. It was invented by Brendan Eich, co-founder of the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation.</p>
+     <p>Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. This reference will take you through simple and practical approaches while learning Java Programming language.</p>
+     <code></code>
+  </section>
+    </div>
+  
+    <div>
+   <section class="main-section" id="Hello_world">
+     <header class="header"><strong>Hello world</strong></header>
+     <p>Example:
+First, go to your test site and create a new folder named 'scripts' (without the quotes). Then, within the new scripts folder you just created, create a new file called main.js. Save it in your scripts folder.
+      </p> 
+     <p>
+Next, in your index.html file enter the following element on a new line just before the closing <!--</body>--> tag:
+<!-- <script src="scripts/main.js"></script> -->
+This is basically doing the same job as the<!-- <link> -->element for CSS — it applies the JavaScript to the page, so it can have an effect on the HTML (along with the CSS, and anything else on the page).
+  </p>  
+     <p>
+Now add the following code to the main.js file:
+var myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
+Finally, make sure the HTML and JavaScript files are saved, then load index.html in the browser. You should see something like the following:
+</p>
+     <p></p>
+     <code></code>
+  </section>
+    </div>
+  
+    <div>
+   <section class="main-section" id="Variables">
+     <header class="header"><strong>Variables</strong></header>
+     <p>
+       Variables
+Variables are named values and can store any type of JavaScript value.
+
+Here’s how to declare a variable:
+EXAMPLE
+var x = 100;
+And here’s what’s happenin.</p>
+     <p>And here’s what’s happening in the example above:
+var is the keyword that tells JavaScript you’re declaring a variable.
+x is the name of that variable.
+= is the operator that tells JavaScript a value is coming up next.
+100 is the value for the variable to store.</p>
+     <code></code>
+  </section>
+    </div>
+  
+    <div>
+  <section class="main-section" id="Declaring_Variables">
+     <header class="header"><strong>Declaring variables</strong></header>
+     <p>Using variables
+After you declare a variable, you can reference it by name elsewhere in your code.
+</p>
+     <p>EXAMPLE
+var x = 100;
+x + 102;
+OUTPUT
+202
+ </p>
+    <p>
+You can even use a variable when declaring other variables.
+</p>
+ <p>
+EXAMPLE
+var x = 100;
+var y = x + 102;
+y;
+OUTPUT
+202</p>
+    <code></code>
+  </section>
+  </div>
+  <h2>Social media</h2>
+   <ul>
+    <li class="github">
+			<a href="https://github.com/aleksi134" target="_blank">
+				<i class="fa fa-github fa-2x"></i>
+			</a>
+		</li>
+     </ul>  
+  <footer>Made by Aleksi134</footer>
+</main>
+</body>
+</html>
