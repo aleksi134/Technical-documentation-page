@@ -1,0 +1,132 @@
+/* Import */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+/* Basic Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+ font-family: 'PT Serif', serif;
+  background-color: #ffffff;
+  z-index: 2;
+  text-align: center;
+}
+
+p {
+   text: center;
+  width:500px;
+  margin-left: 1000px;
+}
+
+#moreinfo {
+  position: fixed;
+  top: 40px;
+  right: 100px;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+  font-family: 'Black Han Sans', sans-serif;
+  
+}
+#moreinfo:hover { 
+    color: blue;
+}
+
+.header {
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  left: 200px;
+  margin-bottom: 20px;
+}
+#navbar {
+  position: fixed;
+  
+  }
+  .main-section {
+    position: relative;
+    right: 200px;
+  }
+
+
+#introheader2 {
+  position: relative;
+  top: -20px;
+  border-bottom: 1px solid black;
+}
+#introheader {
+  position: relative;
+  top: 20px;
+}
+.nav-link {
+  position: fixed;
+  left: 10px;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;p
+  
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+footer {
+  font-family: 'Cookie', cursive;
+  font-size: 40px;
+  position: relative;
+  top: 50px;
+  border: groove;
+}
+
+/* Social media */
+.github a:hover {
+	background-color: ;
+}
+.github {
+  
+}
